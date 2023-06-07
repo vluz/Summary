@@ -13,6 +13,7 @@ try:
         text = file.read()
 except FileNotFoundError:
     print("File not found. Please check the file name and try again.")
+    sys.exit()
 
 tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-xsum")
 model = PegasusForConditionalGeneration.from_pretrained("google/pegasus-xsum")
