@@ -18,6 +18,7 @@ except FileNotFoundError:
 tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-xsum")
 model = PegasusForConditionalGeneration.from_pretrained("google/pegasus-xsum")
 tokens = tokenizer(text, truncation=True, padding="longest", return_tensors="pt")
+
 summary = model.generate(**tokens, max_new_tokens=128)
 output = tokenizer.decode(summary[0])
 print(output)
