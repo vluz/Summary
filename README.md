@@ -4,7 +4,7 @@ https://github.com/google-research/pegasus
 
 <hr>
 
-Sample text used is from Wikipedia:
+Sample text `long_text.txt` is from Wikipedia:
 
 https://en.wikipedia.org/wiki/Automatic_summarization
 
