@@ -22,7 +22,7 @@ venv\Scripts\activate
 
 To install do:
 ```
-git clone https://github.com/vluz/sdnano.git
+git clone https://github.com/vluz/Summary.git
 cd Summary
 pip install -r requirements.txt
 ```
