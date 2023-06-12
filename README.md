@@ -11,7 +11,8 @@ https://en.wikipedia.org/wiki/Automatic_summarization
 <hr>
 
 Takes a txt as argument and uses Pegasus to provide a summary of the input text.
-<br>
+
+
 Open a command prompt and `cd` to a new directory of your choosing:
 
 (optional; recommended) Create a virtual environment with:
