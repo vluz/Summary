@@ -36,6 +36,8 @@ Please allow it time to finish.
 All runs after the first are then faster to load.
 
 To run do:<br>
-`python summary.py` for the fully functional cli version**
+`python summary.py long_text.txt` 
+<br>or<br>
+`python summary.py YOUR_TEXT_HERE.txt`
 
 Do not use for production, untested.
