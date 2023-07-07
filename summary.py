@@ -1,5 +1,5 @@
-from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 import sys
+from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 
 
 if len(sys.argv) < 2:
